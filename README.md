@@ -19,6 +19,15 @@ Altså for eksempel:
 * 1234claus@4382984637#
 * @1#
 
+#### Diagram
+_upload_
+
+#### Kode
+
+````   
+  // Indsæt her
+
+````   
 
 
 
