@@ -22,7 +22,7 @@ Altså for eksempel:
 På en eller anden måde skal vi lave en form for mønstergenkendelse, og _State Machine_ er en virkelig god måde at gøre det på.
 
 #### Diagram
-![](patternreqstatemachine.png)
+![](statemachine.png)
 
 #### Kode
 
