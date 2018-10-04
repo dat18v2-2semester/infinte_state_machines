@@ -12,10 +12,11 @@ Et State Machine Diagram består af følgende figurer:
 ### State Machine eksempel
 Problemet der skal løses er at jeg gerne vil have en maskine der kan give adgang til noget login beskyttet materiale. I stedet for at hver bruger har et unikt brugernavn og password skal brugeren i stedet have et password der kan være forskellig fra gang til gang, men kravene til passwordet er at det skal afsluttes med et **_@_** tegn efterfulgt af en tilfældig række af **_tal_** og sluttende med et **_#_** tegn. 
 
-ALtså for eksempel: 
+Altså for eksempel: 
 
-* @123#
-* @4382984637#
+* Henning@123#
+* Hjeningh@123#
+* 1234claus@4382984637#
 * @1#
 
 
