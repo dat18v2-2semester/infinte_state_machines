@@ -137,14 +137,9 @@ public class FSTMPatternExample {
 
 
 ## Øvelser
-
-<table>
-  <tr>
-    <td>* Lav et trafiklys som State Machine, med diagram og tilhørende kode som reagerer på input fra _én_ knap.
-  * Koden skal laves vha Spring Boot Initializer. Og trafiklys og knap skal vises i browseren vha html og css.</td>
-    <td>![](trafiklys.jpg)</td>
-  </tr>
-</table>
+![](trafiklys.jpg)    
+* Lav et trafiklys som State Machine, med diagram og tilhørende kode som reagerer på input fra _én_ knap.
+  * Koden skal laves vha Spring Boot Initializer. Og trafiklys og knap skal vises i browseren vha html og css.
 
 
 <!-- Kom på et ikke alt for kompliceret eksempel, lave et stae machine diagram og omsæt det til kode og vis det for os andre sidst på dagen. -->
