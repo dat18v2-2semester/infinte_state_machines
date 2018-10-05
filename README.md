@@ -9,8 +9,11 @@ Agenda d. 9-10-2018 dat18b
 ### State Machine Diagram
 Et State Machine Diagram består af følgende figurer:
 
-![](state.png)
+> Initial State
 ![](initial.png)
+> State
+![](state.png)
+> Action
 ![](action.png)
 
 ### State Machine eksempel
