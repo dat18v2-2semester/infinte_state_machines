@@ -13,7 +13,7 @@ Et State Machine Diagram består af følgende figurer:
 ![](initial.png)    
 
 > **State**
-![](state.png)    
+![](ovn.png)    
 
 > **Action**    
 ![](action.png)    
@@ -22,7 +22,7 @@ Et State Machine Diagram består af følgende figurer:
 ### En Ovn er en State Machine
 Og kan modeleres på følgende måde
 
-![](ovn.png)
+![](ovn_2.png)
 
 
 ### State Machine eksempel
