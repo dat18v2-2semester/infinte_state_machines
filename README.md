@@ -27,7 +27,86 @@ På en eller anden måde skal vi lave en form for mønstergenkendelse, og _State
 #### Kode
 
 ````   
-  // Indsæt her
+  // Class with tools to be used
+  
+  public class Util {
+
+    private String s;
+    private String digits = "0123456789";
+
+    public Util(String s){
+        this.s = s;
+    }
+
+    public boolean checkDigits(int i){
+        return digits.indexOf(s.charAt(i)) != -1;
+    }
+    
+    public boolean checkChar(int i, char c){
+        return s.charAt(i) == c;
+    }
+
+}
+
+// Main machine class
+
+import java.util.Scanner;
+
+public class FSTMPatternExample {
+
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Please log in: ");
+        String s = scan.nextLine();
+        Util util = new Util(s);
+        int state = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            if (state == 0) {
+                if (util.checkChar(i, '@')) {
+                    state = 1;
+                }
+            } else if (state == 1) {
+                if (util.checkDigits(i)) {
+                    // if it is a digit we are in state 2
+                    state = 2;
+                } else if (util.checkChar(i, '@')) {
+                    state = 1;
+                } else {
+                    state = 0;
+                }
+
+            } else if (state == 2) {
+
+                if (util.checkChar(i, '#')) {
+                    state = 3;
+                } else if (util.checkDigits(i)) {
+                    state = 2;
+                } else if (util.checkChar(i, '@')) {
+                    state = 1;
+                } else {
+                    state = 0;
+                }
+
+            } else if (state == 3) {
+
+                if (util.checkChar(i, '@')) {
+                    state = 1;
+                } else {
+                    state = 0;
+                }
+            }
+
+        }
+
+        if(state == 3){
+            System.out.println("You are in");
+        } else {
+            System.out.println("You could not log in");
+        }
+    }
+}
 
 ````   
 
