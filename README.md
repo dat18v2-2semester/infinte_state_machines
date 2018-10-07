@@ -27,6 +27,9 @@ Og kan modeleres på følgende måde
 
 ![](ovn.png)
 
+### Telefon med substates
+![](telephone_simple.png)
+![](Telephone_substates.png)
 
 ### State Machine eksempel (mønstergenkendelse)
 Problemet der skal løses er at jeg gerne vil have en maskine der kan give adgang til noget login beskyttet materiale. Men i stedet for at hver bruger har et unikt brugernavn og password kan brugeren skrive hvad som helst bare at passwordet afsluttes med et **_@_** tegn efterfulgt af en tilfældig række af **_tal_** og sluttende med et **_#_** tegn. 
