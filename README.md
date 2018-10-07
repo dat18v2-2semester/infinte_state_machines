@@ -23,12 +23,12 @@ Et State Machine Diagram består af følgende figurer:
 
 
 ### En Ovn er en State Machine
-Og kan modeleres på følgende måde
-
+Kan modeleres på følgende måde
+>
 ![](ovn.png)
 
 ### Telefon med substates
-Og kan modeleres på følgende måde    
+Kan modeleres på følgende måde    
 
 > Simpel
 ![](telephone_simple.png)
