@@ -160,4 +160,4 @@ public class FSTMPatternExample {
   * Koden skal laves vha Spring Boot Initializer. Og trafiklys og knap skal vises i browseren vha html og css.
 
 
-<!-- Kom på et ikke alt for kompliceret eksempel, lave et stae machine diagram og omsæt det til kode og vis det for os andre sidst på dagen. -->
+* I jeres Student projekt som i har lavet med Faisal skal i tilføje en State Machine som kan håndterer et login.
