@@ -151,7 +151,8 @@ public class FSTMPatternExample {
 
 ## Øvelser
 * Telefon med substates
-  * Udfra diagrammet ovenover skal du lave koden til denne State Machine.
+![](Telephone_substates.png)
+  * Udfra diagrammet 
 
 ![](Traffic_lights_4_states.png)    
 * Lav et trafiklys som State Machine, med diagram og tilhørende kode som reagerer på input fra _én_ knap.
