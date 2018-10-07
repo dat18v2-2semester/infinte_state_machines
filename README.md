@@ -16,7 +16,10 @@ Et State Machine Diagram består af følgende figurer:
 ![](state.png)    
 
 > **Action**    
-![](action.png)    
+![](action.png) 
+
+> **Substates**    
+![](Substate.png) 
 
 
 ### En Ovn er en State Machine
