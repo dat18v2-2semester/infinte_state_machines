@@ -28,7 +28,11 @@ Og kan modeleres på følgende måde
 ![](ovn.png)
 
 ### Telefon med substates
+Og kan modeleres på følgende måde    
+
+> Simpel
 ![](telephone_simple.png)
+> Med substates
 ![](Telephone_substates.png)
 
 ### State Machine eksempel (mønstergenkendelse)
